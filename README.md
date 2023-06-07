@@ -8,6 +8,7 @@ a very common situation is investigated where a controlled system is involved wh
 
 <p align="center">
   <img src="https://github.com/mazenalamir/ETC_dataset_BFD/blob/main/images/etc.png" width="30%">
+  <p align="center"> Fig. 1: schematic view of the ETC system used to build the dataset</p>
 </p>
 
 The equations of the electronic throttle controlled system are
@@ -23,3 +24,5 @@ $$
 where $K_{sp}$ characterizes the spring stiffness (see Fig.1 above), $K_f$ is the friction coefficient, $N$ is the gear ratio, $K_t$ is the electric torque static gain relatively to the current $i_a$. $R_p$ is a constant radius, $\Delta_p=P_\text{atm}-P_m$ where $P_m=f(\theta, P_\text{atm}, N)$ is the manifold pressure that approaches the atmospheric pressure $P_\text{atm}$ when the throttle is wide open. 
 
 The system is controlled using a backstepping feedback desgin the details of which are ommitted here since they lie out of the scope of the anomalies detection topics. 
+
+The benchmark consists in detecting changes impacting the following three parameters: $K_b$, $K_t$ and $L_a$ using an anomaly detector that is fitted on the time series produced using the nominal values of the parameters. 
