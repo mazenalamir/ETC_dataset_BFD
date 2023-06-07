@@ -1,6 +1,8 @@
 # ETC_dataset_BFD
 A Synthetic benchmark for blind anomaly detectors for industrial time series
 
+[![DOI](https://zenodo.org/badge/650488034.svg)](https://zenodo.org/badge/latestdoi/650488034)
+
 ## Description of the dataset 
 This is a synthetic dataset that might be used to challenge **Blind anomaly detector for time series**
 
