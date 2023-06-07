@@ -69,3 +69,14 @@ The following images shows the columns in the `df_train` and `df_test_label` dat
 ### Important information on test data
 
 > Please note that the training data lies in the first block of the `df_test`dataset. If you want to draw statistic, it is important to know that the first 6-th part of the test data is simply the training data. It is therefore expected that you get *nice* results on this part of the test data.
+
+## Benchmark Description
+
+Use the training dataset `df_train`in order to fit your anomalies detector. 
+Use the test dataset `df_test`to predict the presence or not of anomalies in dataset. 
+Compare your prediction to the column `label`of the dataframe `df_test_labels`. Note that `0`represent normal data while `1`represent anomalous data. 
+The prediction can be performed over a moving window spanning the time series or using point-wise prediction. 
+The nominal benchmark involves only the columns `x1`and `u`of the dataframe, but you might feel free to use less or more columns. 
+The other columns in the `df_test_labels` are provided as extra columns that explains the origin of the anomalies. 
+
+If interested in having more rich set of anomalies values, please contact me. 
