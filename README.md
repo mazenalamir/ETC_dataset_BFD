@@ -27,6 +27,13 @@ The system is controlled using a backstepping feedback desgin the details of whi
 
 The benchmark consists in detecting changes impacting the following three parameters: $K_b$, $K_t$ and $L_a$ using an anomaly detector that is fitted on the time series produced using the nominal values of the parameters. 
 
+The raw version of the time series is shown in the Figure 2. below:
+
+<p align="center">
+  <img src="https://github.com/mazenalamir/ETC_dataset_BFD/blob/main/images/raw_etc.png" width="50%">
+  <p align="center"> Fig. 2: Raw version of the time series incuded in the test dataframe.</p>
+</p>
+
 The dataset consists of four csv pandas dataframes: 
 
 - `df_train.csv`: The Dataframe of features for training 
