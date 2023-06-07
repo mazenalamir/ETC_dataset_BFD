@@ -41,4 +41,24 @@ import pandas as pd
 df_train = pd.read_csv('df_train.csv', inde_col=0)
 ```
 
-The following images shows the columns in the `df_train` and `df_test_label` dataframes
+The following images shows the columns in the `df_train` and `df_test_label` dataframes: 
+
+- `df_train`
+
+=============
+
+<p align="left">
+  <img src="https://github.com/mazenalamir/ETC_dataset_BFD/blob/main/images/df_train.png" width="30%">
+</p>
+
+- `df_test_label`
+
+=============
+
+<p align="left">
+  <img src="https://github.com/mazenalamir/ETC_dataset_BFD/blob/main/images/df_test_labels.png" width="20%">
+</p>
+
+### Important information on test data
+
+> Please note that the training data lies in the first block of the `df_test`dataset. If you want to draw statistic, it is important to know that the first 6-th part of the test data is simply the training data. It is therefore expected that you get *nice* results on this part of the test data.
