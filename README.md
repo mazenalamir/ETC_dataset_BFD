@@ -26,3 +26,19 @@ where $K_{sp}$ characterizes the spring stiffness (see Fig.1 above), $K_f$ is th
 The system is controlled using a backstepping feedback desgin the details of which are ommitted here since they lie out of the scope of the anomalies detection topics. 
 
 The benchmark consists in detecting changes impacting the following three parameters: $K_b$, $K_t$ and $L_a$ using an anomaly detector that is fitted on the time series produced using the nominal values of the parameters. 
+
+The dataset consists of four csv pandas dataframes: 
+
+- `df_train.csv`: The Dataframe of features for training 
+- `df_train_labels.csv` : The Dataframe of labels for training 
+- `df_test.csv`: The Dataframe of features for test 
+- `df_test_labels.csv` : The Dataframe of labels for test
+
+In order to read the dataframe, use the following pandas command 
+
+```python 
+import pandas as pd
+df_train = pd.read_csv('df_train.csv', inde_col=0)
+```
+
+The following images shows the columns in the `df_train` and `df_test_label` dataframes
