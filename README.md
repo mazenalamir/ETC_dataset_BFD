@@ -6,7 +6,9 @@ This is a synthetic dataset that might be used to challenge **Blind anomaly dete
 
 a very common situation is investigated where a controlled system is involved which is based on the set of nominal parameters of the system. In this case, the very closed-loop nature implies that the feedback control could hide some of the consequences of the parametric changes representing anomalies. On the other hand, the variability of contexts materializes in the values of the set-point changes that can be applied and fed to the control feedback algorithm. A schematic view of the system used to build the dataset bencmark is shown hereafter: 
 
-
+<p align="center">
+  <img src="https://github.com/mazenalamir/ETC_dataset_BFD/blob/main/images/etc.png" width="30%">
+</p>
 
 The equations of the electronic throttle controlled system are
 
@@ -19,3 +21,5 @@ $$
 $$
 
 where $K_{sp}$ characterizes the spring stiffness (see Fig.1 above), $K_f$ is the friction coefficient, $N$ is the gear ratio, $K_t$ is the electric torque static gain relatively to the current $i_a$. $R_p$ is a constant radius, $\Delta_p=P_\text{atm}-P_m$ where $P_m=f(\theta, P_\text{atm}, N)$ is the manifold pressure that approaches the atmospheric pressure $P_\text{atm}$ when the throttle is wide open. 
+
+The system is controlled using a backstepping feedback desgin the details of which are ommitted here since they lie out of the scope of the anomalies detection topics. 
