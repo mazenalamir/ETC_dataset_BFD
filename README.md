@@ -40,7 +40,7 @@ The dataset consists of four csv pandas dataframes:
 
 - `df_train.csv`: The Dataframe of features for training 
 - `df_train_labels.csv` : The Dataframe of labels for training 
-- `df_test.csv`: The Dataframe of features for test 
+- `df_test.csv`: The Dataframe of features for test (This file is to big to be contained in Github, use the [following link](https://www.mazenalamir.fr/files/df_test.csv) to download it 
 - `df_test_labels.csv` : The Dataframe of labels for test
 
 In order to read the dataframe, use the following pandas command 
