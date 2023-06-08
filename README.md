@@ -47,7 +47,7 @@ In order to read the dataframe, use the following pandas command
 
 ```python 
 import pandas as pd
-df_train = pd.read_csv('df_train.csv', inde_col=0)
+df_train = pd.read_csv('df_train.csv', index_col=0)
 ```
 
 The following images shows the columns in the `df_train` and `df_test_label` dataframes: 
