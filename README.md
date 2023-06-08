@@ -9,7 +9,7 @@ This is a synthetic dataset that might be used to challenge **Blind anomaly dete
 a very common situation is investigated where a controlled system is involved which is based on the set of nominal parameters of the system. In this case, the very closed-loop nature implies that the feedback control could hide some of the consequences of the parametric changes representing anomalies. On the other hand, the variability of contexts materializes in the values of the set-point changes that can be applied and fed to the control feedback algorithm. A schematic view of the system used to build the dataset bencmark is shown hereafter: 
 
 <p align="center">
-  <img src="https://github.com/mazenalamir/ETC_dataset_BFD/blob/main/images/etc.png" width="30%">
+  <img src="https://github.com/mazenalamir/ETC_dataset_BFD/blob/main/images/etc.png" width="50%">
   <p align="center"> Fig. 1: schematic view of the ETC system used to build the dataset</p>
 </p>
 
